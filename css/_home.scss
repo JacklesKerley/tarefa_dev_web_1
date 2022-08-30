@@ -1,0 +1,27 @@
+
+.home {
+    height: 100%;
+    background-color: rgb(226, 226, 226);
+        
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    
+        .imgCapa {
+            text-align: center;
+    
+            img {
+                width: 100%;
+            }
+        }
+
+        .conteudo {
+            margin: 25px 0;
+
+            h3 {
+                margin: 10px 0;
+            }
+        }
+    }
+}
