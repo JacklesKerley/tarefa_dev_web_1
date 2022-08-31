@@ -14,15 +14,23 @@
   align-items: center;
   padding-left: 2%;
 }
+.header .imgLogo img {
+  width: 80%;
+}
 .header .navBar {
   display: flex;
-  align-items: center;
   width: 30%;
+}
+@media (max-width: 830px) {
+  .header .navBar {
+    width: 38%;
+  }
 }
 .header .navBar .menu {
   display: flex;
   width: 100%;
   list-style: none;
+  align-items: center;
 }
 .header .navBar .menu li {
   text-align: center;
@@ -36,6 +44,21 @@
 .header .navBar .menu li a:hover {
   color: rgb(190, 190, 190);
   border-bottom: 1px solid rgb(190, 190, 190);
+}
+@media (max-width: 1095px) {
+  .header .navBar .menu li a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 962px) {
+  .header .navBar .menu li a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 830px) {
+  .header .navBar .menu li a {
+    font-size: 11px;
+  }
 }
 
 .home {

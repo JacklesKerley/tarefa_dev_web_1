@@ -9,20 +9,30 @@
     align-items: center;
     padding-left: 2%;
 
+    .imgLogo {
+        img {
+            width: 80%;
+        }
+    }
+
     .navBar {
         display: flex;
-        align-items: center;
         width: 30%;
 
+        @media (max-width: 830px) {
+            width: 38%;
+        }
+        
         .menu {
             display: flex;
             width: 100%;
             list-style: none;
+            align-items: center;
 
             li {
                 text-align: center;
                 width: 33%;
-                
+               
                 a {
                     color: black;
                     padding-bottom: 2px;
@@ -31,6 +41,18 @@
                     &:hover {
                         color: rgb(190, 190, 190);
                         border-bottom: 1px solid rgb(190, 190, 190);
+                    }
+
+                    @media (max-width: 1095px) {
+                        font-size: 14px;
+                    }
+
+                    @media (max-width: 962px) {
+                        font-size: 12px;
+                    }
+
+                    @media (max-width: 830px) {
+                        font-size: 11px;
                     }
                 }
             }
