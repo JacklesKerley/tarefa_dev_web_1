@@ -58,4 +58,15 @@
 }
 .home .container .conteudo h3 {
   margin: 10px 0;
+}
+
+.footer {
+  background-color: grey;
+  text-align: center;
+  padding: 2px 0;
+}
+.footer span {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=main.css.map */
