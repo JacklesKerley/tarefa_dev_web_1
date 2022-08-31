@@ -1,0 +1,35 @@
+
+.contato {
+    height: 100%;
+    background-color: rgb(226, 226, 226);
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    
+        h1 {
+            margin: 2% 0;
+        }
+
+        hr {
+            margin: 2% 0;
+        }
+
+        div {
+            margin: 1% 0;
+        }
+
+        .mensagem {
+            display: flex;
+            flex-direction: column;
+
+            span > input {
+                width: 25%;
+                height: 80px;
+            }
+        }
+
+    }
+
+}

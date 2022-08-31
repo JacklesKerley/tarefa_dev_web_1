@@ -114,4 +114,31 @@
 }
 .quemSomos .container hr {
   margin-top: 2%;
+}
+
+.contato {
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+}
+.contato .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.contato .container h1 {
+  margin: 2% 0;
+}
+.contato .container hr {
+  margin: 2% 0;
+}
+.contato .container div {
+  margin: 1% 0;
+}
+.contato .container .mensagem {
+  display: flex;
+  flex-direction: column;
+}
+.contato .container .mensagem span > input {
+  width: 25%;
+  height: 80px;
 }/*# sourceMappingURL=main.css.map */
