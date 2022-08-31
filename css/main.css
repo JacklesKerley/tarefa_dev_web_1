@@ -92,4 +92,26 @@
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.quemSomos {
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+}
+.quemSomos .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.quemSomos .container h1 {
+  margin: 2% 0;
+}
+.quemSomos .container p {
+  margin: 1.6% 0;
+}
+.quemSomos .container ol {
+  padding-left: 5%;
+}
+.quemSomos .container hr {
+  margin-top: 2%;
 }/*# sourceMappingURL=main.css.map */
