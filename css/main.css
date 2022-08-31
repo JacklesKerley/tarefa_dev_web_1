@@ -134,11 +134,14 @@
 .contato .container div {
   margin: 1% 0;
 }
+.contato .container div span > input {
+  width: 30%;
+}
 .contato .container .mensagem {
   display: flex;
   flex-direction: column;
 }
-.contato .container .mensagem span > input {
-  width: 25%;
-  height: 80px;
+.contato .container .mensagem span > textarea {
+  width: 50%;
+  height: 10vh;
 }/*# sourceMappingURL=main.css.map */
