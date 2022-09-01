@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(226, 226, 226);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -63,10 +67,10 @@
 
 .home {
   height: 100%;
-  background-color: rgb(226, 226, 226);
 }
 .home .container {
   width: 80%;
+  min-height: 86.4vh;
   margin: 0 auto;
   padding: 10px;
 }
@@ -96,10 +100,10 @@
 
 .quemSomos {
   height: 100%;
-  background-color: rgb(226, 226, 226);
 }
 .quemSomos .container {
   width: 80%;
+  min-height: 86.4vh;
   margin: 0 auto;
   padding: 10px;
 }
@@ -118,10 +122,10 @@
 
 .contato {
   height: 100%;
-  background-color: rgb(226, 226, 226);
 }
 .contato .container {
   width: 80%;
+  min-height: 86.4vh;
   margin: 0 auto;
   padding: 10px;
 }
