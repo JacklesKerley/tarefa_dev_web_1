@@ -1,5 +1,6 @@
 .home {
     height: 100%;
+    // background-image: url(/img/fundo.png);
     
 
     .container {
@@ -10,10 +11,7 @@
 
         .imgCapa {
             text-align: center;
-
-            img {
-                width: 100%;
-            }
+            margin-top: 5vh;
         }
 
         .conteudo {
