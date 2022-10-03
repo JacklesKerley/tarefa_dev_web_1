@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+
+    <header class="header">
+        <div class="imgLogo">
+            <a href="index"><img src="../static/img/logo.png" alt="logo-unes"></a>
+        </div>
+
+        <nav class="navBar">
+            <ul class="menu">
+                <li><a href="index">HOME</a></li>
+                <li><a href="quem_somos">QUEM SOMOS</a></li>
+                <li><a href="contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block body %}
+    {% endblock %}
+
+    <footer class="footer">
+        <span>Todos os Direitos Reservados</span>
+    </footer>
+</body>
+</html>
