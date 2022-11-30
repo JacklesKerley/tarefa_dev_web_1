@@ -17,10 +17,10 @@
 
     .navBar {
         display: flex;
-        width: 30%;
+        width: 50%;
 
         @media (max-width: 830px) {
-            width: 38%;
+            width: 55%;
         }
         
         .menu {
