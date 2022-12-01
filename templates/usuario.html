@@ -9,9 +9,20 @@
     <h1>Users</h1>
 
     <hr />
+    
     {%for usuario in usuarios%}
-    <p>{{usuario}}</p>
+    <div class="d-flex flex-column w-100 p-2">
+      <div class="d-flex col-12">
+        <p class="p-0 m-0 col-4">Email: {{usuario.email | capitalize}}</p>
+        <p class="p-0 m-0 col-5">Assunto: {{usuario.assunto}}</p>
+      </div>
+      <div class="col-12">
+        <p class="p-0 m-0 col-12">Descrição: {{usuario.descricao}}</p>
+      </div>
+    </div>
+    <hr class="p-0 m-0">
     {%endfor%}
+
   </div>
 
   {% endblock %}

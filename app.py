@@ -1,9 +1,9 @@
 from flask import Flask, request, render_template
 from db import connect
 
-
 app = Flask(__name__)
 
+@app.route('/')
 @app.route('/index')
 def index():
     return render_template('index.html')
@@ -41,7 +41,3 @@ def contact():
 
         return "Contato Enviado!"
     return render_template('contato.html')
-
-
-
-
